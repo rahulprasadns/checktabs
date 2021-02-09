@@ -1,0 +1,60 @@
+.leftArrowTabs{
+    grid-column: 1;
+    width: 50px;
+    border-style: none;
+    font-family: 'Courier New', monospace;
+    font-size: 0.2em;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
+}
+
+.rightArrowTabs{
+    grid-column: 17;
+    width: 50px;
+    border-style: none;
+    font-family: 'Courier New', monospace;
+    font-size: 0.2em;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
+    top: 0%;
+}
+
+.hideTheButton.rightArrowTabs {
+    visibility: hidden;
+}
+
+.hideTheButton.leftArrowTabs{
+    visibility: hidden;
+}
+
+.onRightArrowdiv{
+    height: 0.4em;
+    display: flex;
+    width: 45px;
+}
+
+.addTabsButton{
+    grid-column: 18;
+    width: 48px;
+    border-style: none;
+    font-family: 'Courier New', monospace;
+    font-size: 0.2em;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
+}
+
+.addTabsButton:active, .leftArrowTab:active, .rightArrowTabs:active{
+    font-weight: 600;
+}
+
+.tabsWithActions{
+    display: grid;
+    grid-gap: 2px;
+    background-color: #cfd8dc;
+    width: 100%;
+    flex-direction: row;
+    height: 0.4em;
+}

@@ -1,0 +1,54 @@
+.alertPopup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 300px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+  }
+
+.alertPopup.displayBlock {
+      display: block;
+  }
+  
+  .modalContent{
+    background-color: #cfd8dc;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    font-size: 0.15em;
+    height: 150px;
+    border-radius: 8px;
+  }
+  
+  .closeButton {
+    color: #aaaaaa;
+    float: right;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .closeButton:active{
+      color: #333333;
+      font-weight: 700;
+  }
+  
+  .conformationButton{
+    visibility: visible;
+    background-color: #37474f;
+    border-style: none;
+    font-weight: 300;
+    color: #b0bec5;
+    float:none;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.6em;
+    font-weight: bold;
+  }

@@ -1,0 +1,9 @@
+.TabDataStyle{
+    font-size: 0.2em;
+    font-weight: 300;
+}
+
+.containerTabData{
+    margin: 50px;
+    border: 3px dotted grey;
+}

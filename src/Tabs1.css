@@ -1,0 +1,26 @@
+.tabsParent{
+
+    grid-column: 2/span 15;
+    width: 1047px;
+    height: 0.4em;
+}
+
+.individualTabs{
+    overflow-y: hidden;
+    height: 0.4em;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 1047px;
+}
+
+.individualTabs::-webkit-scrollbar {
+    display: none;
+}
+
+  .individualTabs {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+
